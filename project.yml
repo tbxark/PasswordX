@@ -1,0 +1,106 @@
+name: PasswordX
+
+options:
+  bundleIdPrefix: com.tbxark
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+
+packages:
+  PasswordCryptor:
+    path: PasswordCryptor
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: 858CBVXSWP
+    IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+
+targets:
+  PasswordX:
+    type: application
+    platform: iOS
+    sources:
+      - path: PasswordX
+        excludes:
+          - "PasswordX.entitlements"
+      - path: Shared
+    dependencies:
+      - target: PasswordXAuth
+      - package: PasswordCryptor
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.tbxark.PasswordX
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: PasswordX
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.utilities
+        INFOPLIST_KEY_NSFaceIDUsageDescription: "Protect your MasterKey with FaceID"
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_ENTITLEMENTS: PasswordX/PasswordX.entitlements
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        ENABLE_PREVIEWS: YES
+        SUPPORTS_MACCATALYST: YES
+        DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER: YES
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SWIFT_EMIT_LOC_STRINGS: YES
+
+  PasswordXAuth:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: PasswordXAuth
+        excludes:
+          - "Info.plist"
+          - "PasswordXAuth.entitlements"
+      - path: Shared
+    dependencies:
+      - package: PasswordCryptor
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.tbxark.PasswordX.PasswordXAuth
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_FILE: PasswordXAuth/Info.plist
+        INFOPLIST_KEY_CFBundleDisplayName: PasswordXAuth
+        CODE_SIGN_ENTITLEMENTS: PasswordXAuth/PasswordXAuth.entitlements
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SKIP_INSTALL: YES
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SWIFT_EMIT_LOC_STRINGS: YES
+
+schemes:
+  PasswordX:
+    build:
+      targets:
+        PasswordX: all
+        PasswordXAuth: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
+  PasswordXAuth:
+    build:
+      targets:
+        PasswordXAuth: all
+    run:
+      config: Debug
+      askForAppToLaunch: true
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release

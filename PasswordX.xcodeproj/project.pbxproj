@@ -3,576 +3,334 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A7C2703235184BF009C7F8D /* GeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C2702235184BE009C7F8D /* GeneratorViewController.swift */; };
-		6A7C27052351A019009C7F8D /* BiometricAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C27042351A019009C7F8D /* BiometricAuth.swift */; };
-		6A7C27062351AE38009C7F8D /* BiometricAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7C27042351A019009C7F8D /* BiometricAuth.swift */; };
-		6AB3D71F234EFE7F008649C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB3D71E234EFE7F008649C9 /* AppDelegate.swift */; };
-		6AB3D721234EFE7F008649C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB3D720234EFE7F008649C9 /* SceneDelegate.swift */; };
-		6AB3D728234EFE81008649C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB3D727234EFE81008649C9 /* Assets.xcassets */; };
-		6AB3D72B234EFE81008649C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB3D729234EFE81008649C9 /* LaunchScreen.storyboard */; };
-		6AB3D73B234EFEAC008649C9 /* PasswordCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AB3D739234EFEAC008649C9 /* PasswordCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AB3D73E234EFEAC008649C9 /* PasswordCryptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB3D737234EFEAC008649C9 /* PasswordCryptor.framework */; };
-		6AB3D73F234EFEAC008649C9 /* PasswordCryptor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB3D737234EFEAC008649C9 /* PasswordCryptor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6AB3D749234EFF44008649C9 /* PasswordCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB3D748234EFF44008649C9 /* PasswordCryptor.swift */; };
-		6AB3D775234F193C008649C9 /* PasswordTextRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB3D774234F193C008649C9 /* PasswordTextRender.swift */; };
-		6AB3D77A234F356B008649C9 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB3D779234F356B008649C9 /* SettingViewController.swift */; };
-		6AB3D77C234F38F1008649C9 /* PasswordConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB3D77B234F38F1008649C9 /* PasswordConfigService.swift */; };
-		6AB3D77E234F3CE9008649C9 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB3D77D234F3CE9008649C9 /* HistoryViewController.swift */; };
-		6AB3D7802350131E008649C9 /* TextHUG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB3D77F2350131E008649C9 /* TextHUG.swift */; };
-		6AE3E9B42350CE7C00115ACC /* PasswordCryptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB3D737234EFEAC008649C9 /* PasswordCryptor.framework */; };
-		6AE3E9B92350CE8900115ACC /* PasswordTextRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB3D774234F193C008649C9 /* PasswordTextRender.swift */; };
-		6AE3E9BA2350CE8900115ACC /* PasswordConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB3D77B234F38F1008649C9 /* PasswordConfigService.swift */; };
-		6AF2969E23502BB3003D91FA /* QuickButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF2969D23502BB3003D91FA /* QuickButton.swift */; };
-		6AF296A023504E3A003D91FA /* SliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF2969F23504E3A003D91FA /* SliderTableViewCell.swift */; };
-		6AF296A2235056B4003D91FA /* UIKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF296A1235056B4003D91FA /* UIKit+Extension.swift */; };
-		6AF296CF23506833003D91FA /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF296CE23506833003D91FA /* AuthenticationServices.framework */; };
-		6AF296D523506850003D91FA /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF296CE23506833003D91FA /* AuthenticationServices.framework */; };
-		6AF296D823506850003D91FA /* CredentialProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF296D723506850003D91FA /* CredentialProviderViewController.swift */; };
-		6AF296DB23506850003D91FA /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF296D923506850003D91FA /* MainInterface.storyboard */; };
-		6AF296E023506850003D91FA /* PasswordXAuth.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6AF296D423506850003D91FA /* PasswordXAuth.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		6AF296E7235078C8003D91FA /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = 6AF296E6235078C8003D91FA /* IQKeyboardManagerSwift */; };
-		6AF296ED23507A15003D91FA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6AF296EC23507A15003D91FA /* SnapKit */; };
-		6AF296F023507C74003D91FA /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6AF296EF23507C74003D91FA /* CryptoSwift */; };
+		016361D8745E144FC277C880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0296A3BB5775B96F6E47E414 /* Assets.xcassets */; };
+		01B5C9542947F4B4E3FC12E4 /* BiometricAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075ED47E3ED46A7E961AC03A /* BiometricAuth.swift */; };
+		0E6FC8DC697D0502E0F3116E /* PasswordConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4266974F13BF451A94F75097 /* PasswordConfigService.swift */; };
+		125D030F6CD0A76F54CA5093 /* CredentialProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA031E93DF7A1B1934A41734 /* CredentialProviderViewController.swift */; };
+		2FC7CC8071E8B50C5EB4201E /* BiometricAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075ED47E3ED46A7E961AC03A /* BiometricAuth.swift */; };
+		37814951F22CD795ACD2ED2F /* PasswordXApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2610B7A96C5F3292A200C3 /* PasswordXApp.swift */; };
+		6994A13D16D192ED33F367CE /* PasswordConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4266974F13BF451A94F75097 /* PasswordConfigService.swift */; };
+		6DD958D4A082F1E5740093CE /* DemoSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853AC8C93160A57D8DBC19C6 /* DemoSnapshot.swift */; };
+		6E1ABE8841F664123C6AE31E /* PasswordUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67427D8C993F0E519A902FD7 /* PasswordUI.swift */; };
+		6F256260BC80DC7E455BE075 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBD4D48D90C6B1A4D92173 /* SettingView.swift */; };
+		8BE8DEB1BF6AE0A9B92D2B09 /* PasswordCryptor in Frameworks */ = {isa = PBXBuildFile; productRef = 5B641AC2322707F48CA5D5B3 /* PasswordCryptor */; };
+		BC08DF7AF69FA29E8FDD2C8C /* PasswordCryptor in Frameworks */ = {isa = PBXBuildFile; productRef = 701EFD528CE9125D552221D8 /* PasswordCryptor */; };
+		C3E5ABFC9F4CDDC7DC561A3F /* CredentialProviderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7FC2168635619D21FC56AA /* CredentialProviderView.swift */; };
+		D252ACD50D0DA567A7982950 /* PasswordXAuth.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1902AF1BBDADC2F90E6D6298 /* PasswordXAuth.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DA446AA5F26BBCA087BEC26B /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6AF35B7B3C711499B221D5 /* HistoryView.swift */; };
+		EBC53CCD37C533E98AFC8DBB /* PasswordUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67427D8C993F0E519A902FD7 /* PasswordUI.swift */; };
+		FE736E62B7973635A070BEC9 /* GeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2A0CD4648C1697BE097367 /* GeneratorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6AB3D73C234EFEAC008649C9 /* PBXContainerItemProxy */ = {
+		B5C2B14DBF9BE2971AEAB790 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6AB3D713234EFE7F008649C9 /* Project object */;
+			containerPortal = 43FC4F2B93AE40C8F4EA7C29 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6AB3D736234EFEAC008649C9;
-			remoteInfo = PasswordCryptor;
-		};
-		6AE3E9B62350CE7C00115ACC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6AB3D713234EFE7F008649C9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6AB3D736234EFEAC008649C9;
-			remoteInfo = PasswordCryptor;
-		};
-		6AF296DE23506850003D91FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6AB3D713234EFE7F008649C9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6AF296D323506850003D91FA;
+			remoteGlobalIDString = D694726384430448D835F690;
 			remoteInfo = PasswordXAuth;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6AB3D743234EFEAC008649C9 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				6AB3D73F234EFEAC008649C9 /* PasswordCryptor.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6AF296E423506850003D91FA /* Embed App Extensions */ = {
+		3CE1F9899F4E61E8B9E50019 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				6AF296E023506850003D91FA /* PasswordXAuth.appex in Embed App Extensions */,
+				D252ACD50D0DA567A7982950 /* PasswordXAuth.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6A7C2702235184BE009C7F8D /* GeneratorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratorViewController.swift; sourceTree = "<group>"; };
-		6A7C27042351A019009C7F8D /* BiometricAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuth.swift; sourceTree = "<group>"; };
-		6AB3D71B234EFE7F008649C9 /* PasswordX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordX.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AB3D71E234EFE7F008649C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6AB3D720234EFE7F008649C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6AB3D727234EFE81008649C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6AB3D72A234EFE81008649C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6AB3D72C234EFE81008649C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6AB3D737234EFEAC008649C9 /* PasswordCryptor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PasswordCryptor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AB3D739234EFEAC008649C9 /* PasswordCryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordCryptor.h; sourceTree = "<group>"; };
-		6AB3D73A234EFEAC008649C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6AB3D747234EFEFC008649C9 /* PasswordX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PasswordX.entitlements; sourceTree = "<group>"; };
-		6AB3D748234EFF44008649C9 /* PasswordCryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordCryptor.swift; sourceTree = "<group>"; };
-		6AB3D774234F193C008649C9 /* PasswordTextRender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextRender.swift; sourceTree = "<group>"; };
-		6AB3D779234F356B008649C9 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
-		6AB3D77B234F38F1008649C9 /* PasswordConfigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordConfigService.swift; sourceTree = "<group>"; };
-		6AB3D77D234F3CE9008649C9 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
-		6AB3D77F2350131E008649C9 /* TextHUG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextHUG.swift; sourceTree = "<group>"; };
-		6AF2969D23502BB3003D91FA /* QuickButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickButton.swift; sourceTree = "<group>"; };
-		6AF2969F23504E3A003D91FA /* SliderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTableViewCell.swift; sourceTree = "<group>"; };
-		6AF296A1235056B4003D91FA /* UIKit+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Extension.swift"; sourceTree = "<group>"; };
-		6AF296CE23506833003D91FA /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
-		6AF296D423506850003D91FA /* PasswordXAuth.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PasswordXAuth.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AF296D723506850003D91FA /* CredentialProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialProviderViewController.swift; sourceTree = "<group>"; };
-		6AF296DA23506850003D91FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		6AF296DC23506850003D91FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6AF296DD23506850003D91FA /* PasswordXAuth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PasswordXAuth.entitlements; sourceTree = "<group>"; };
+		0296A3BB5775B96F6E47E414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		075ED47E3ED46A7E961AC03A /* BiometricAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuth.swift; sourceTree = "<group>"; };
+		1902AF1BBDADC2F90E6D6298 /* PasswordXAuth.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = PasswordXAuth.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7FC2168635619D21FC56AA /* CredentialProviderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialProviderView.swift; sourceTree = "<group>"; };
+		4266974F13BF451A94F75097 /* PasswordConfigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordConfigService.swift; sourceTree = "<group>"; };
+		4E2610B7A96C5F3292A200C3 /* PasswordXApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordXApp.swift; sourceTree = "<group>"; };
+		67427D8C993F0E519A902FD7 /* PasswordUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordUI.swift; sourceTree = "<group>"; };
+		7E6AF35B7B3C711499B221D5 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		853AC8C93160A57D8DBC19C6 /* DemoSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSnapshot.swift; sourceTree = "<group>"; };
+		96FBD4D48D90C6B1A4D92173 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		9A2A0CD4648C1697BE097367 /* GeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorView.swift; sourceTree = "<group>"; };
+		9FD10012B69EC495D99907F0 /* PasswordX.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PasswordX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA031E93DF7A1B1934A41734 /* CredentialProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialProviderViewController.swift; sourceTree = "<group>"; };
+		FBF540F7F0340ED5FC84AA04 /* PasswordCryptor */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PasswordCryptor; path = PasswordCryptor; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6AB3D718234EFE7F008649C9 /* Frameworks */ = {
+		09E0F410CA2F5BF9BA613E63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AF296CF23506833003D91FA /* AuthenticationServices.framework in Frameworks */,
-				6AF296E7235078C8003D91FA /* IQKeyboardManagerSwift in Frameworks */,
-				6AB3D73E234EFEAC008649C9 /* PasswordCryptor.framework in Frameworks */,
-				6AF296ED23507A15003D91FA /* SnapKit in Frameworks */,
+				8BE8DEB1BF6AE0A9B92D2B09 /* PasswordCryptor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6AB3D734234EFEAC008649C9 /* Frameworks */ = {
+		A5F7CB9A9C333EDA12747F9F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AF296F023507C74003D91FA /* CryptoSwift in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6AF296D123506850003D91FA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6AF296D523506850003D91FA /* AuthenticationServices.framework in Frameworks */,
-				6AE3E9B42350CE7C00115ACC /* PasswordCryptor.framework in Frameworks */,
+				BC08DF7AF69FA29E8FDD2C8C /* PasswordCryptor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5619CEEF541D95E04F95820B /* Pods */ = {
+		1D61F7E842A9C98A721B6A13 /* PasswordX */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		6AB3D712234EFE7F008649C9 = {
-			isa = PBXGroup;
-			children = (
-				6AB3D71D234EFE7F008649C9 /* PasswordX */,
-				6AB3D738234EFEAC008649C9 /* PasswordCryptor */,
-				6AF296D623506850003D91FA /* PasswordXAuth */,
-				6AB3D71C234EFE7F008649C9 /* Products */,
-				5619CEEF541D95E04F95820B /* Pods */,
-				889C92A258EDE950F43B3326 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		6AB3D71C234EFE7F008649C9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6AB3D71B234EFE7F008649C9 /* PasswordX.app */,
-				6AB3D737234EFEAC008649C9 /* PasswordCryptor.framework */,
-				6AF296D423506850003D91FA /* PasswordXAuth.appex */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6AB3D71D234EFE7F008649C9 /* PasswordX */ = {
-			isa = PBXGroup;
-			children = (
-				6AB3D745234EFEE5008649C9 /* AppDelegate */,
-				6AB3D746234EFEEE008649C9 /* Modules */,
-				6AB3D744234EFEDB008649C9 /* Resource */,
-				6AB3D747234EFEFC008649C9 /* PasswordX.entitlements */,
-				6AB3D72C234EFE81008649C9 /* Info.plist */,
+				4E2610B7A96C5F3292A200C3 /* PasswordXApp.swift */,
+				4B67F08779BA43A9222A8A25 /* Resource */,
+				37781D0CD6B86027B4277992 /* Views */,
 			);
 			path = PasswordX;
 			sourceTree = "<group>";
 		};
-		6AB3D738234EFEAC008649C9 /* PasswordCryptor */ = {
+		37781D0CD6B86027B4277992 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6AB3D748234EFF44008649C9 /* PasswordCryptor.swift */,
-				6AB3D739234EFEAC008649C9 /* PasswordCryptor.h */,
-				6AB3D73A234EFEAC008649C9 /* Info.plist */,
-			);
-			path = PasswordCryptor;
-			sourceTree = "<group>";
-		};
-		6AB3D744234EFEDB008649C9 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				6AB3D727234EFE81008649C9 /* Assets.xcassets */,
-				6AB3D729234EFE81008649C9 /* LaunchScreen.storyboard */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		6AB3D745234EFEE5008649C9 /* AppDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				6AB3D71E234EFE7F008649C9 /* AppDelegate.swift */,
-				6AB3D720234EFE7F008649C9 /* SceneDelegate.swift */,
-			);
-			path = AppDelegate;
-			sourceTree = "<group>";
-		};
-		6AB3D746234EFEEE008649C9 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				6AE3E9BB2350E15200115ACC /* Password */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		6AB3D776234F3193008649C9 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6AB3D774234F193C008649C9 /* PasswordTextRender.swift */,
-				6AB3D77B234F38F1008649C9 /* PasswordConfigService.swift */,
-				6A7C27042351A019009C7F8D /* BiometricAuth.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		6AB3D7812350133E008649C9 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				6AB3D77F2350131E008649C9 /* TextHUG.swift */,
-				6AF2969D23502BB3003D91FA /* QuickButton.swift */,
-				6AF2969F23504E3A003D91FA /* SliderTableViewCell.swift */,
-				6AF296A1235056B4003D91FA /* UIKit+Extension.swift */,
+				853AC8C93160A57D8DBC19C6 /* DemoSnapshot.swift */,
+				9A2A0CD4648C1697BE097367 /* GeneratorView.swift */,
+				7E6AF35B7B3C711499B221D5 /* HistoryView.swift */,
+				96FBD4D48D90C6B1A4D92173 /* SettingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		6AE3E9BB2350E15200115ACC /* Password */ = {
+		4B67F08779BA43A9222A8A25 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				6AB3D7812350133E008649C9 /* Views */,
-				6AB3D776234F3193008649C9 /* Classes */,
-				6AB3D779234F356B008649C9 /* SettingViewController.swift */,
-				6AB3D77D234F3CE9008649C9 /* HistoryViewController.swift */,
-				6A7C2702235184BE009C7F8D /* GeneratorViewController.swift */,
+				0296A3BB5775B96F6E47E414 /* Assets.xcassets */,
 			);
-			path = Password;
+			path = Resource;
 			sourceTree = "<group>";
 		};
-		6AF296D623506850003D91FA /* PasswordXAuth */ = {
+		6F6BA2479FBAC1113CE49E89 = {
 			isa = PBXGroup;
 			children = (
-				6AF296D723506850003D91FA /* CredentialProviderViewController.swift */,
-				6AF296D923506850003D91FA /* MainInterface.storyboard */,
-				6AF296DC23506850003D91FA /* Info.plist */,
-				6AF296DD23506850003D91FA /* PasswordXAuth.entitlements */,
+				987E7CD2015164FF8004D0B3 /* Packages */,
+				1D61F7E842A9C98A721B6A13 /* PasswordX */,
+				E5B3BB567EFE04D84DE41854 /* PasswordXAuth */,
+				EF7BCA38945FB6C39A4C14C1 /* Shared */,
+				842FA4A41365CD171B97790F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		842FA4A41365CD171B97790F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FD10012B69EC495D99907F0 /* PasswordX.app */,
+				1902AF1BBDADC2F90E6D6298 /* PasswordXAuth.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		987E7CD2015164FF8004D0B3 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				FBF540F7F0340ED5FC84AA04 /* PasswordCryptor */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		E5B3BB567EFE04D84DE41854 /* PasswordXAuth */ = {
+			isa = PBXGroup;
+			children = (
+				2B7FC2168635619D21FC56AA /* CredentialProviderView.swift */,
+				CA031E93DF7A1B1934A41734 /* CredentialProviderViewController.swift */,
 			);
 			path = PasswordXAuth;
 			sourceTree = "<group>";
 		};
-		889C92A258EDE950F43B3326 /* Frameworks */ = {
+		EF7BCA38945FB6C39A4C14C1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				6AF296CE23506833003D91FA /* AuthenticationServices.framework */,
+				075ED47E3ED46A7E961AC03A /* BiometricAuth.swift */,
+				4266974F13BF451A94F75097 /* PasswordConfigService.swift */,
+				67427D8C993F0E519A902FD7 /* PasswordUI.swift */,
 			);
-			name = Frameworks;
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		6AB3D732234EFEAC008649C9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6AB3D73B234EFEAC008649C9 /* PasswordCryptor.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		6AB3D71A234EFE7F008649C9 /* PasswordX */ = {
+		AC82B0963278C2E98E1BE589 /* PasswordX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6AB3D72F234EFE81008649C9 /* Build configuration list for PBXNativeTarget "PasswordX" */;
+			buildConfigurationList = 2C35B30BE554490E58C046FD /* Build configuration list for PBXNativeTarget "PasswordX" */;
 			buildPhases = (
-				6AB3D717234EFE7F008649C9 /* Sources */,
-				6AB3D718234EFE7F008649C9 /* Frameworks */,
-				6AB3D719234EFE7F008649C9 /* Resources */,
-				6AB3D743234EFEAC008649C9 /* Embed Frameworks */,
-				6AF296E423506850003D91FA /* Embed App Extensions */,
+				19E732FDC66ED35DBAD928F3 /* Sources */,
+				5D9307779040095B2E7C3DC3 /* Resources */,
+				09E0F410CA2F5BF9BA613E63 /* Frameworks */,
+				3CE1F9899F4E61E8B9E50019 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6AB3D73D234EFEAC008649C9 /* PBXTargetDependency */,
-				6AF296DF23506850003D91FA /* PBXTargetDependency */,
+				03E50724CB5806D17AAA0E05 /* PBXTargetDependency */,
 			);
 			name = PasswordX;
 			packageProductDependencies = (
-				6AF296E6235078C8003D91FA /* IQKeyboardManagerSwift */,
-				6AF296EC23507A15003D91FA /* SnapKit */,
+				5B641AC2322707F48CA5D5B3 /* PasswordCryptor */,
 			);
 			productName = PasswordX;
-			productReference = 6AB3D71B234EFE7F008649C9 /* PasswordX.app */;
+			productReference = 9FD10012B69EC495D99907F0 /* PasswordX.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6AB3D736234EFEAC008649C9 /* PasswordCryptor */ = {
+		D694726384430448D835F690 /* PasswordXAuth */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6AB3D740234EFEAC008649C9 /* Build configuration list for PBXNativeTarget "PasswordCryptor" */;
+			buildConfigurationList = 39104B90CF029B26D4A37782 /* Build configuration list for PBXNativeTarget "PasswordXAuth" */;
 			buildPhases = (
-				6AB3D732234EFEAC008649C9 /* Headers */,
-				6AB3D733234EFEAC008649C9 /* Sources */,
-				6AB3D734234EFEAC008649C9 /* Frameworks */,
-				6AB3D735234EFEAC008649C9 /* Resources */,
+				2A2F0E03A97D9FCB6C340436 /* Sources */,
+				A5F7CB9A9C333EDA12747F9F /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = PasswordCryptor;
-			packageProductDependencies = (
-				6AF296EF23507C74003D91FA /* CryptoSwift */,
-			);
-			productName = PasswordCryptor;
-			productReference = 6AB3D737234EFEAC008649C9 /* PasswordCryptor.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6AF296D323506850003D91FA /* PasswordXAuth */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6AF296E123506850003D91FA /* Build configuration list for PBXNativeTarget "PasswordXAuth" */;
-			buildPhases = (
-				6AF296D023506850003D91FA /* Sources */,
-				6AF296D123506850003D91FA /* Frameworks */,
-				6AF296D223506850003D91FA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6AE3E9B72350CE7C00115ACC /* PBXTargetDependency */,
 			);
 			name = PasswordXAuth;
+			packageProductDependencies = (
+				701EFD528CE9125D552221D8 /* PasswordCryptor */,
+			);
 			productName = PasswordXAuth;
-			productReference = 6AF296D423506850003D91FA /* PasswordXAuth.appex */;
+			productReference = 1902AF1BBDADC2F90E6D6298 /* PasswordXAuth.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6AB3D713234EFE7F008649C9 /* Project object */ = {
+		43FC4F2B93AE40C8F4EA7C29 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1250;
-				ORGANIZATIONNAME = TBXark;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					6AB3D71A234EFE7F008649C9 = {
-						CreatedOnToolsVersion = 11.1;
+					AC82B0963278C2E98E1BE589 = {
+						DevelopmentTeam = 858CBVXSWP;
+						ProvisioningStyle = Automatic;
 					};
-					6AB3D736234EFEAC008649C9 = {
-						CreatedOnToolsVersion = 11.1;
-						LastSwiftMigration = 1110;
-					};
-					6AF296D323506850003D91FA = {
-						CreatedOnToolsVersion = 11.1;
+					D694726384430448D835F690 = {
+						DevelopmentTeam = 858CBVXSWP;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 6AB3D716234EFE7F008649C9 /* Build configuration list for PBXProject "PasswordX" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 59E2BF3CCF6E4E38F6823221 /* Build configuration list for PBXProject "PasswordX" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
-			mainGroup = 6AB3D712234EFE7F008649C9;
+			mainGroup = 6F6BA2479FBAC1113CE49E89;
+			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				6AF296E5235078C8003D91FA /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
-				6AF296EB23507A15003D91FA /* XCRemoteSwiftPackageReference "SnapKit" */,
-				6AF296EE23507C74003D91FA /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+				2E9F9C312A07C0F5E5354B84 /* XCLocalSwiftPackageReference "PasswordCryptor" */,
 			);
-			productRefGroup = 6AB3D71C234EFE7F008649C9 /* Products */;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 842FA4A41365CD171B97790F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6AB3D71A234EFE7F008649C9 /* PasswordX */,
-				6AB3D736234EFEAC008649C9 /* PasswordCryptor */,
-				6AF296D323506850003D91FA /* PasswordXAuth */,
+				AC82B0963278C2E98E1BE589 /* PasswordX */,
+				D694726384430448D835F690 /* PasswordXAuth */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6AB3D719234EFE7F008649C9 /* Resources */ = {
+		5D9307779040095B2E7C3DC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AB3D72B234EFE81008649C9 /* LaunchScreen.storyboard in Resources */,
-				6AB3D728234EFE81008649C9 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6AB3D735234EFEAC008649C9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6AF296D223506850003D91FA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6AF296DB23506850003D91FA /* MainInterface.storyboard in Resources */,
+				016361D8745E144FC277C880 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6AB3D717234EFE7F008649C9 /* Sources */ = {
+		19E732FDC66ED35DBAD928F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A7C27052351A019009C7F8D /* BiometricAuth.swift in Sources */,
-				6AB3D77C234F38F1008649C9 /* PasswordConfigService.swift in Sources */,
-				6AF2969E23502BB3003D91FA /* QuickButton.swift in Sources */,
-				6AF296A023504E3A003D91FA /* SliderTableViewCell.swift in Sources */,
-				6AB3D7802350131E008649C9 /* TextHUG.swift in Sources */,
-				6AB3D77A234F356B008649C9 /* SettingViewController.swift in Sources */,
-				6AB3D71F234EFE7F008649C9 /* AppDelegate.swift in Sources */,
-				6AB3D721234EFE7F008649C9 /* SceneDelegate.swift in Sources */,
-				6AF296A2235056B4003D91FA /* UIKit+Extension.swift in Sources */,
-				6AB3D77E234F3CE9008649C9 /* HistoryViewController.swift in Sources */,
-				6AB3D775234F193C008649C9 /* PasswordTextRender.swift in Sources */,
-				6A7C2703235184BF009C7F8D /* GeneratorViewController.swift in Sources */,
+				2FC7CC8071E8B50C5EB4201E /* BiometricAuth.swift in Sources */,
+				6DD958D4A082F1E5740093CE /* DemoSnapshot.swift in Sources */,
+				FE736E62B7973635A070BEC9 /* GeneratorView.swift in Sources */,
+				DA446AA5F26BBCA087BEC26B /* HistoryView.swift in Sources */,
+				6994A13D16D192ED33F367CE /* PasswordConfigService.swift in Sources */,
+				EBC53CCD37C533E98AFC8DBB /* PasswordUI.swift in Sources */,
+				37814951F22CD795ACD2ED2F /* PasswordXApp.swift in Sources */,
+				6F256260BC80DC7E455BE075 /* SettingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6AB3D733234EFEAC008649C9 /* Sources */ = {
+		2A2F0E03A97D9FCB6C340436 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AB3D749234EFF44008649C9 /* PasswordCryptor.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6AF296D023506850003D91FA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6AF296D823506850003D91FA /* CredentialProviderViewController.swift in Sources */,
-				6AE3E9B92350CE8900115ACC /* PasswordTextRender.swift in Sources */,
-				6A7C27062351AE38009C7F8D /* BiometricAuth.swift in Sources */,
-				6AE3E9BA2350CE8900115ACC /* PasswordConfigService.swift in Sources */,
+				01B5C9542947F4B4E3FC12E4 /* BiometricAuth.swift in Sources */,
+				C3E5ABFC9F4CDDC7DC561A3F /* CredentialProviderView.swift in Sources */,
+				125D030F6CD0A76F54CA5093 /* CredentialProviderViewController.swift in Sources */,
+				0E6FC8DC697D0502E0F3116E /* PasswordConfigService.swift in Sources */,
+				6E1ABE8841F664123C6AE31E /* PasswordUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6AB3D73D234EFEAC008649C9 /* PBXTargetDependency */ = {
+		03E50724CB5806D17AAA0E05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6AB3D736234EFEAC008649C9 /* PasswordCryptor */;
-			targetProxy = 6AB3D73C234EFEAC008649C9 /* PBXContainerItemProxy */;
-		};
-		6AE3E9B72350CE7C00115ACC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6AB3D736234EFEAC008649C9 /* PasswordCryptor */;
-			targetProxy = 6AE3E9B62350CE7C00115ACC /* PBXContainerItemProxy */;
-		};
-		6AF296DF23506850003D91FA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			platformFilter = ios;
-			target = 6AF296D323506850003D91FA /* PasswordXAuth */;
-			targetProxy = 6AF296DE23506850003D91FA /* PBXContainerItemProxy */;
+			target = D694726384430448D835F690 /* PasswordXAuth */;
+			targetProxy = B5C2B14DBF9BE2971AEAB790 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		6AB3D729234EFE81008649C9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6AB3D72A234EFE81008649C9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		6AF296D923506850003D91FA /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6AF296DA23506850003D91FA /* Base */,
-			);
-			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		6AB3D72D234EFE81008649C9 /* Debug */ = {
+		265E07EBC8048F6DFAD36CCE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PasswordX/PasswordX.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PasswordX;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Protect your MasterKey with FaceID";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
+					"@executable_path/Frameworks",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbxark.PasswordX;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Release;
 		};
-		6AB3D72E234EFE81008649C9 /* Release */ = {
+		5B428B84E6664FE6ACD4837B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -605,8 +363,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 858CBVXSWP;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -617,246 +377,206 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		6AB3D730234EFE81008649C9 /* Debug */ = {
+		74290E29E09DDAE6EFA9B6C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = PasswordX/PasswordX.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
-				DEVELOPMENT_TEAM = 858CBVXSWP;
-				INFOPLIST_FILE = PasswordX/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				CODE_SIGN_ENTITLEMENTS = PasswordXAuth/PasswordXAuth.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PasswordXAuth/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PasswordXAuth;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tbxark.PasswordX;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
-				SWIFT_VERSION = 5.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbxark.PasswordX.PasswordXAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9CAA2526C1CE78AC7841CDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PasswordXAuth/PasswordXAuth.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PasswordXAuth/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PasswordXAuth;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbxark.PasswordX.PasswordXAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6AB3D731234EFE81008649C9 /* Release */ = {
+		9EEEEB73BBBED4181E00D90C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = PasswordX/PasswordX.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
-				DEVELOPMENT_TEAM = 858CBVXSWP;
-				INFOPLIST_FILE = PasswordX/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tbxark.PasswordX;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		6AB3D741234EFEAC008649C9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 858CBVXSWP;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PasswordCryptor/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
+					"DEBUG=1",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tbxark.passwordCryptor;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		6AB3D742234EFEAC008649C9 /* Release */ = {
+		ACCB6866D21D084B13E971C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PasswordX/PasswordX.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 858CBVXSWP;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PasswordCryptor/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PasswordX;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Protect your MasterKey with FaceID";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tbxark.passwordCryptor;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6AF296E223506850003D91FA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = PasswordXAuth/PasswordXAuth.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 858CBVXSWP;
-				INFOPLIST_FILE = PasswordXAuth/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tbxark.PasswordX.PasswordXAuth;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbxark.PasswordX;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		6AF296E323506850003D91FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = PasswordXAuth/PasswordXAuth.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 858CBVXSWP;
-				INFOPLIST_FILE = PasswordXAuth/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tbxark.PasswordX.PasswordXAuth;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6AB3D716234EFE7F008649C9 /* Build configuration list for PBXProject "PasswordX" */ = {
+		2C35B30BE554490E58C046FD /* Build configuration list for PBXNativeTarget "PasswordX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6AB3D72D234EFE81008649C9 /* Debug */,
-				6AB3D72E234EFE81008649C9 /* Release */,
+				ACCB6866D21D084B13E971C9 /* Debug */,
+				265E07EBC8048F6DFAD36CCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		6AB3D72F234EFE81008649C9 /* Build configuration list for PBXNativeTarget "PasswordX" */ = {
+		39104B90CF029B26D4A37782 /* Build configuration list for PBXNativeTarget "PasswordXAuth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6AB3D730234EFE81008649C9 /* Debug */,
-				6AB3D731234EFE81008649C9 /* Release */,
+				9CAA2526C1CE78AC7841CDA5 /* Debug */,
+				74290E29E09DDAE6EFA9B6C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		6AB3D740234EFEAC008649C9 /* Build configuration list for PBXNativeTarget "PasswordCryptor" */ = {
+		59E2BF3CCF6E4E38F6823221 /* Build configuration list for PBXProject "PasswordX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6AB3D741234EFEAC008649C9 /* Debug */,
-				6AB3D742234EFEAC008649C9 /* Release */,
+				9EEEEB73BBBED4181E00D90C /* Debug */,
+				5B428B84E6664FE6ACD4837B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6AF296E123506850003D91FA /* Build configuration list for PBXNativeTarget "PasswordXAuth" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6AF296E223506850003D91FA /* Debug */,
-				6AF296E323506850003D91FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		6AF296E5235078C8003D91FA /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:hackiftekhar/IQKeyboardManager.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.5.1;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		2E9F9C312A07C0F5E5354B84 /* XCLocalSwiftPackageReference "PasswordCryptor" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = PasswordCryptor;
 		};
-		6AF296EB23507A15003D91FA /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:SnapKit/SnapKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.1;
-			};
-		};
-		6AF296EE23507C74003D91FA /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:krzyzanowskim/CryptoSwift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6AF296E6235078C8003D91FA /* IQKeyboardManagerSwift */ = {
+		5B641AC2322707F48CA5D5B3 /* PasswordCryptor */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6AF296E5235078C8003D91FA /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
-			productName = IQKeyboardManagerSwift;
+			productName = PasswordCryptor;
 		};
-		6AF296EC23507A15003D91FA /* SnapKit */ = {
+		701EFD528CE9125D552221D8 /* PasswordCryptor */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6AF296EB23507A15003D91FA /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		6AF296EF23507C74003D91FA /* CryptoSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6AF296EE23507C74003D91FA /* XCRemoteSwiftPackageReference "CryptoSwift" */;
-			productName = CryptoSwift;
+			productName = PasswordCryptor;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 6AB3D713234EFE7F008649C9 /* Project object */;
+	rootObject = 43FC4F2B93AE40C8F4EA7C29 /* Project object */;
 }
